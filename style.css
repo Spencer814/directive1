@@ -1,0 +1,56 @@
+html {
+    text-align: center;
+    background-color: #6495ED;
+}
+
+input {
+    text-align: center;
+}
+
+.brand-logo {
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRztVJL45y-v8ExDNfgoGzhv0dcCzwAh0eaGoX0xc6JZEH4Ke4C');
+    width: 280px;
+    height: 150px;
+    background-position: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.name {
+    width: 150px;
+}
+
+.first {
+    margin-right: 1em;
+}
+
+.last {
+    margin-left: 1em;
+}
+
+.email {
+    width: 335px;
+}
+
+.name,
+.email,
+span {
+    margin-bottom: 0.5em;
+}
+
+button {
+    margin-top: 2em;
+}
+
+footer {
+    background-color: black;
+    margin-top: 3em;
+    border-radius: 8px;
+    height: 50px;
+    padding: 0.1em;
+}
+
+p {
+    color: white;
+}
