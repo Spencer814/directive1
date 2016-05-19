@@ -1,0 +1,29 @@
+{
+  "name": "directive1",
+  "version": "1.0.0",
+  "description": "This is my project incorporating directives in Angular",
+  "main": "script.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spencer814/directive1.git"
+  },
+  "author": "Andre Newman <andre.d.newman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spencer814/directive1/issues"
+  },
+  "homepage": "https://github.com/Spencer814/directive1#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "jquery": "^2.2.3",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-safari-launcher": "^1.0.0"
+  }
+}
