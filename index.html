@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Directive Test</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js" type="text/javascript"></script>
-    <script src="script.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Directive Test</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js" type="text/javascript"></script>
+  <script src="script.js"></script>
+</head>
 
-  <body ng-controller="appCtrl">
-    <h1>Acme Inc.</h1>
-    <div class="brand-logo"></div>
+<body ng-controller="appCtrl">
+  <h1>Acme Inc.</h1>
+  <div class="brand-logo"></div>
+  <opt-in>
     <form name="appForm" ng-submit="submit()" novalidate>
       <input class="first name" type="text" name="firstname" ng-model="firstname" placeholder="First Name" required>
       <input class="last name" type="text" name="lastname" ng-model="lastname" placeholder="Last Name" required>
@@ -29,10 +30,10 @@
       </span>
       <button type="submit" ng-disabled="appForm.firstname.$dirty && appForm.firstname.$invalid || appForm.lastname.$dirty && appForm.lastname.$invalid || appForm.email.$dirty && appForm.email.$invalid">Submit Your Information</button>
     </form>
-    <opt-in></opt-in>
-    <footer>
-      <p>Enter your name and email if you like the <a href="http://www.nissanusa.com/sportscars/gt-r" target="_blank">Nissan GT-R</a>, aka Godzilla.</p>
-    </footer>
-  </body>
+  </opt-in>
+  <footer>
+    <p>Enter your name and email if you like the <a href="http://www.nissanusa.com/sportscars/gt-r" target="_blank">Nissan GT-R</a>, aka Godzilla.</p>
+  </footer>
+</body>
 
 </html>

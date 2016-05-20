@@ -14,7 +14,8 @@ app.directive('godzilla', function() {
    return {
         restrict: 'AE',
         transclude: true,
-        template: '<div class="brand-logo"><span ng-transclude></span></div>',
-        replace: true
+        template: '<div class="brand-logo"><span ng-transclude></span></div>' + '<opt-in><span ng-transclude></span></opt-in>',
+        replace: true,
+        scope: false
     };
 });

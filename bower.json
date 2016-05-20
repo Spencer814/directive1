@@ -1,0 +1,21 @@
+{
+  "name": "directive1",
+  "description": "This is my project incorporating directives in Angular",
+  "main": "script.js",
+  "authors": [
+    "Andre Newman <andre.d.newman@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Spencer814/directive1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "^1.5.5"
+  }
+}
